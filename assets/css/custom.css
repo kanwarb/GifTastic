@@ -1,0 +1,31 @@
+.img-click
+{
+    width: 20rem;
+    height: 20rem;
+}
+
+
+
+div{
+    border: transparent;
+    float: left;
+}
+.anim-button {
+    float: left;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.anim-card {
+    width: 100vw;
+    float: initial;
+}
+#animalButtonDiv {
+    float: left;
+}
+#search-animal {
+    float: left;
+}
+.img {
+    float: left;
+}
