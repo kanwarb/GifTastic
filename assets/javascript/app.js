@@ -55,7 +55,7 @@ function renderButtons() {
     //$('#search-animal').find('*').not('.anim-card').remove();
     $("#animalButtonDiv").remove();
     var buttonDiv = $("<div>");
-    buttonDiv.addClass("anim-button");
+    buttonDiv.addClass("anim-button card-inverse card-primary text-center w-65");
     buttonDiv.attr("id", "animalButtonDiv");
     console.log(animalArr.length);
     for (i = 0; i < animalArr.length; i++) {
@@ -66,7 +66,7 @@ function renderButtons() {
        newButton.text(animalArr[i]);
        $(buttonDiv).append(newButton);
     }
-    $("#search-animal").append(buttonDiv);
+    $("#search-animal").prepend(buttonDiv);
 }
 
 
