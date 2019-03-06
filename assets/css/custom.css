@@ -11,7 +11,7 @@
 }
 
 body{
-    background: url("../images/backendImage.jpg");
+    background: url("../images/brickwall.jpg");
 }
 
 
@@ -52,6 +52,7 @@ div{
 
 #add-animal-div {
     float: right;
+    font-size: large;
     
 }
 
