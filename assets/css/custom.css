@@ -2,8 +2,17 @@
 {
     width: 20rem;
     height: 20rem;
+    float:  left;
+    padding: 5rem;
 }
 
+.notvisible {
+    visibility: hidden;
+}
+
+body{
+    background: url("../images/backendImage.jpg");
+}
 
 
 div{
@@ -17,8 +26,10 @@ div{
 }
 
 .anim-card {
-    width: 100vw;
-    float: initial;
+    float: left;
+    position: absolute;
+    left: 20rem;
+    margin-top: 0.75rem;
 }
 #animalButtonDiv {
     float: left;
@@ -28,4 +39,14 @@ div{
 }
 .img {
     float: left;
+}
+
+#input-animal {
+    float: right;
+}
+
+
+#add-animal-div {
+    float: right;
+    
 }
