@@ -1,4 +1,4 @@
-var animalArr = ['dog', 'Cats', 'Tiger', 'Hamster', 'Lion', 'Cheetah', 'Aligator', 'Shark', 'Dolphin'];
+var animalArr = ['dog', 'Cats', 'Tiger', 'Hamster', 'Lion', 'Cheetah', 'Aligator', 'Shark', 'Dolphin','Monkey','Chimpanzee'];
 var addAnimal='';
 
 
@@ -23,10 +23,10 @@ function showAnimal() {
 
             var cardDiv = $("<div>");
             var cardDivId = 'animals-div' + index;
-            cardDiv.addClass("animalclass p-4");
+            cardDiv.addClass("animalclass card-inverse card-title p-4");
             cardDiv.attr("id", cardDivId);
             // Append one image to per div
-            $(cardDiv).append("<img  id=" + index + " class='img-thumbnail img-state img-click p-2' src=" + items.images.fixed_width_small_still.url + " data-status='still'" + " data-animate=" + items.images.fixed_width_small.url + " data-still=" + items.images.fixed_width_small_still.url + ">");
+            $(cardDiv).append("<div class='card-body'> <h5> Rating-" + items.rating + "</h5> <img  id=" + index + " class='card-img-top img-thumbnail  img-state img-click p-2' src=" + items.images.fixed_width_small_still.url + " data-status='still'" + " data-animate=" + items.images.fixed_width_small.url + " data-still=" + items.images.fixed_width_small_still.url + "></div>");
             // append the Div to the Parent Div
             $(outerDiv).append(cardDiv);
         });
@@ -61,7 +61,7 @@ function renderButtons() {
     for (i = 0; i < animalArr.length; i++) {
        // $(buttonDiv).append("<button class='xyz anim-button bg-warning  m-2' id=" + animalArr[i] + " data-name=" + animalArr[i] + ">" + animalArr[i] + "</button>");
        var newButton = $("<button>");
-       newButton.addClass("xyz anim-button bg-warning  m-2 ");
+       newButton.addClass("xyz anim-button btn-fonts bg-warning  m-2 ");
        newButton.attr("data-name", animalArr[i]);
        newButton.text(animalArr[i]);
        $(buttonDiv).append(newButton);
