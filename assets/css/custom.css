@@ -54,3 +54,10 @@ div{
     float: right;
     
 }
+
+.img-click:hover {
+    border-color: lightsalmon;
+    border-style: solid;
+    border-width: 10px;
+    
+}
