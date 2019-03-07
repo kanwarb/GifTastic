@@ -27,13 +27,12 @@ div{
 
 .anim-card {
     float: left;
-    position: absolute;
     left: 20rem;
     margin-top: 0.75rem;
 }
 #animalButtonDiv {
-    width:  85rem;
-    margin-top: -5rem;
+    width:  85vw;
+
     margin-left: 0;
     margin-right: 5rem;
     margin-bottom: 0;
@@ -46,12 +45,13 @@ div{
 }
 
 #input-animal {
-    float: right;
+    float: left;
+
 }
 
 
 #add-animal-div {
-    float: right;
+
     font-size: large;
     
 }
@@ -70,4 +70,12 @@ h5
 
 .btn-fonts{
     font-size: x-large;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .anim-card {
+        float: relative;
+        margin-top: 5rem;
+    }
 }
