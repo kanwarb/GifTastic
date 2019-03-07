@@ -20,3 +20,11 @@ Initial Web Page on load
 ![Initial Page](assets/images/InitialScreen.png)
 ![Show Images](assets/images/ShowImages.png)
 ![Add Button](assets/images/buttonadded.png)
+
+## Web Page developed using
+
+*  HTML
+*  Bootstrap
+*  CSS
+*  Javascript
+*  jQuery
